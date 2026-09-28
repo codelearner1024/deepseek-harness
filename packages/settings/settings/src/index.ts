@@ -15,6 +15,7 @@ import type { SettingsNamespace } from './types.ts'
 export { redactSecrets } from './redact.ts'
 export type { RedactedSecret, RedactedValue } from './redact.ts'
 export type { SettingsNamespace } from './types.ts'
+export { SettingsForms as SettingsProvider }
 
 /** One Loader entry's live Config fields. */
 export interface SettingsDescriptor {
